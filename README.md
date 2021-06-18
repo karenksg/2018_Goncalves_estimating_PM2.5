@@ -1,4 +1,4 @@
-# Predict PM2.5 from AOD/MODIS in Brazilian Amazon Region
+# Predict PM2.5 from AOD/MODIS in the Brazilian Amazon Region
 
 Examples reproducing the results published in the article:
 
@@ -11,3 +11,8 @@ Atmospheric Environment 184 (2018) 156-165. DOI: https://doi.org/10.1016/j.atmos
 
 In this study, we applied a non-linear model for predicting PM2.5 concentration from AOD retrievals using interaction terms
 between average temperature, relative humidity, sine, cosine of date in a period of 365,25 days and the square of the lagged relative residual.
+
+
+The code:
+- dataset_validation.txt :: dataset used in the illustrative examples
+- R_validation_Pm2.5.R :: reproduce the results of the illustrative example
